@@ -1,0 +1,115 @@
+/bin/bash: /home/ubuntu/aws_usage.sh: No such file or directory
++ output_file=new.txt
++ echo 'print the no of bucket in s3'
++ tee -a new.txt
+print the no of bucket in s3
++ aws s3 ls
++ tee -a new.txt
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
++ echo 'print the no of ec2 machine details'
++ tee -a new.txt
+print the no of ec2 machine details
++ aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ tee -a new.txt
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
++ echo 'print the no of lambda functions'
++ tee -a new.txt
+print the no of lambda functions
++ aws lambda list-functions
++ tee -a new.txt
+{
+    "Functions": []
+}
++ echo 'list the no of IAM users'
++ tee -a new.txt
+list the no of IAM users
++ aws iam list-users
++ jq '.Users[] | {UserName: .UserName, UserId: .UserId}'
++ tee -a new.txt
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}
++ output_file=new.txt
++ echo 'print the no of bucket in s3'
++ tee -a new.txt
+print the no of bucket in s3
++ aws s3 ls
++ tee -a new.txt
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
++ tee -a new.txt
++ echo 'print the no of ec2 machine details'
+print the no of ec2 machine details
++ aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ tee -a new.txt
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
++ echo 'print the no of lambda functions'
++ tee -a new.txt
+print the no of lambda functions
++ aws lambda list-functions
++ tee -a new.txt
+{
+    "Functions": []
+}
++ echo 'list the no of IAM users'
++ tee -a new.txt
+list the no of IAM users
++ jq '.Users[] | {UserName: .UserName, UserId: .UserId}'
++ aws iam list-users
++ tee -a new.txt
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}
++ output_file=new.txt
++ echo 'print the no of bucket in s3'
++ tee -a new.txt
+print the no of bucket in s3
++ aws s3 ls
++ tee -a new.txt
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
++ echo 'print the no of ec2 machine details'
++ tee -a new.txt
+print the no of ec2 machine details
++ aws ec2 describe-instances
++ jq '.Reservations[].Instances[].InstanceId'
++ tee -a new.txt
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
++ tee -a new.txt
++ echo 'print the no of lambda functions'
+print the no of lambda functions
++ aws lambda list-functions
++ tee -a new.txt
+{
+    "Functions": []
+}
++ echo 'list the no of IAM users'
++ tee -a new.txt
+list the no of IAM users
++ jq '.Users[] | {UserName: .UserName, UserId: .UserId}'
++ aws iam list-users
++ tee -a new.txt
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}

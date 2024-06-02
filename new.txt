@@ -1,0 +1,76 @@
+print the no of bucket in s3
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
+print the no of ec2 machine details
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
+print the no of lambda functions
+{
+    "Functions": []
+}
+list the no of IAM users
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}
+print the no of bucket in s3
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
+print the no of ec2 machine details
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
+print the no of lambda functions
+{
+    "Functions": []
+}
+list the no of IAM users
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}
+print the no of bucket in s3
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
+print the no of ec2 machine details
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
+print the no of lambda functions
+{
+    "Functions": []
+}
+list the no of IAM users
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}
+print the no of bucket in s3
+2023-10-01 14:15:19 demomc2
+2023-10-20 18:11:21 demomc3
+print the no of ec2 machine details
+"i-09d704c199e5eae70"
+"i-02f0ead5cb23de5ea"
+print the no of lambda functions
+{
+    "Functions": []
+}
+list the no of IAM users
+{
+  "UserName": "kanhed",
+  "UserId": "AIDAWQETBKU6C5ELL62SY"
+}
+{
+  "UserName": "Pushpak",
+  "UserId": "AIDAWQETBKU6EZ4H3RC4Q"
+}
